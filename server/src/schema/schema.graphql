@@ -1,0 +1,31 @@
+type Query {
+  info: String!
+  feed: [Link!]!
+  person: [Person!]!
+}
+
+type Mutation {
+  createLink(url: String!, description: String!): Link!
+
+  updateLink(targetId: ID!, url: String, description: String): Link
+
+  deleteLink(targetId: ID!): LinkResult
+
+  createPerson(userName: String, userPassword: String): Person
+}
+
+type LinkResult {
+    msg: String!
+}
+
+type Link {
+    id: ID!
+    description: String!
+    url: String!
+ }
+
+type Person {
+    user_id : ID!
+    user_name : String
+    user_password : String
+}

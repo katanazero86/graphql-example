@@ -1,0 +1,12 @@
+/client/node_modules
+/server/node_modules
+
+/client/package-lock.json
+/server/package-lock.json
+
+
+.idea/
+/server/.idea/
+/client/.idea/
+/client/.idea/client.iml
+/client/.idea/inspectionProfiles/

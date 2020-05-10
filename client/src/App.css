@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.btn {
+  box-sizing: border-box;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: cadetblue;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 8px;
+}
